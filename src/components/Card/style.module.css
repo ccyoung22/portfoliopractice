@@ -1,0 +1,37 @@
+.cardContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+
+.card {
+  position: relative;
+  top: -10%;
+  width: 1000px;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: start;
+  align-items: center;
+}
+
+.body {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  width: 40%;
+  top: 5%;
+  font-size: 22px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
